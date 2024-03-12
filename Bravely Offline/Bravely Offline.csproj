@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Bravely_Offline</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>bd.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bd.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Runtime.Caching" Version="7.0.0" />
+  </ItemGroup>
+
+</Project>
